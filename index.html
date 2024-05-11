@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="shortcut icon" href="Martz90-Circle-Books (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Lista de tarefas</h1>
+    <p>Liste aqui suas tarefas</p>
+    <p><b>Compromisso:</b></p>
+    <div class="input-container">
+        <input type="text" id="compromisso">
+        <span class="emoji">&#x1F4CB;</span>
+    </div>
+    <p><b>Data:</b></p>
+    <div class="input-container">
+        <input type="date" id="data">
+        <span class="emoji">&#x1F4C5;</span>
+    </div>
+    <p><b>Local:</b></p>
+    <div class="input-container">
+        <input type="text" id="local">
+        <span class="emoji">&#x1F4CD;</span>
+    </div>
+    <button onclick="adicionarTarefa()"><b>Cadastrar</b></button>
+
+    <div id="listadetarefas">
+        <!--serão exibidas as tarefas que vão ser inseridos pelo usuário-->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
